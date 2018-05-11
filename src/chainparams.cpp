@@ -91,10 +91,10 @@ public:
         /**
          * The message start string should be awesome! Ⓢ❤
          */
-        pchMessageStart[0] = 0x24;
-        pchMessageStart[1] = 0xc8;
-        pchMessageStart[2] = 0x27;
-        pchMessageStart[3] = 0x64;
+        pchMessageStart[0] = 0xf2;
+        pchMessageStart[1] = 0x0d;
+        pchMessageStart[2] = 0x21;
+        pchMessageStart[3] = 0x26;
         vAlertPubKey = ParseHex("04b7ecf0baa90495ceb4e4090f6b2fd37eec1e9c85fac68a487f3ce11589692e4a317479316ee814e066638e1db54e37a10689b70286e6315b1087b6615d179264");
         nDefaultPort = 16113;
         nMaxTipAge = 24 * 60 * 60;
