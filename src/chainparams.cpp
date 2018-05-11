@@ -151,8 +151,8 @@ public:
             (0, consensus.hashGenesisBlock)
             (23000, uint256S("0x000000006b366d2c1649a6ebb4787ac2b39c422f451880bc922e3a6fbd723616"))
             (88000, uint256S("0x0000003ef01c0d1f954fdd738dac1b4f7191e6bee66ed8cb882d00d65fccd89b")),
-            1519442392,     // * UNIX timestamp of last checkpoint block
-            194812,         // * total number of transactions between genesis and last checkpoint
+            1526045434,     // * UNIX timestamp of last checkpoint block
+            1,         // * total number of transactions between genesis and last checkpoint
                             //   (the tx=... number in the SetBestChain debug.log lines)
             1275            // * estimated number of transactions per day after checkpoint
                             //   total number of tx / (checkpoint block height / (24 * 24))
