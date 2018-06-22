@@ -1,4 +1,4 @@
-Snowgem 2.0.0
+Snowgem 2.0.3
 =============
 
 What is Snowgem?
@@ -31,14 +31,14 @@ is an automatic deprecation shutdown feature which will halt the node some
 time after this 16 week time period. The automatic feature is based on block
 height and can be explicitly disabled.
 
-Update from source 
+Update from source
 -----------------
 
 ### Update github source
 
 On Ubuntu/Debian-based systems:
 
-Navigate to snowgem folder and run git update commands:
+Navigate to existing snowgem folder and run git update commands:
 
 ```
 $ cd snowgem/
