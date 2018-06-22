@@ -31,7 +31,33 @@ is an automatic deprecation shutdown feature which will halt the node some
 time after this 16 week time period. The automatic feature is based on block
 height and can be explicitly disabled.
 
-Building
+Update from source 
+-----------------
+
+### Update github source
+
+On Ubuntu/Debian-based systems:
+
+Navigate to snowgem folder and run git update commands:
+
+```
+$ cd snowgem/
+$ git fetch origin
+$ git checkout master
+$ git pull
+```
+
+### Build Linux
+
+Ensure you have successfully installed all system package dependencies as described. Then run the build, e.g.:
+```
+$ chmod +x zcutil/build.sh depends/config.guess depends/config.sub autogen.sh share/genbuild.sh src/leveldb/build_detect_platform depends/Makefile
+$ ./zcutil/build.sh --disable-rust
+```
+
+This should compile our dependencies and build zcashd. (Note: if you don't have nproc, then substitute the number of cores on your system. If the build runs out of memory, try again without the ```-j``` argument, i.e. just ```./zcutil/build.sh --disable-rust```. )
+
+Building from source
 -----------------
 
 ### Install dependencies
